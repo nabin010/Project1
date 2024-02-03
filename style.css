@@ -1,0 +1,264 @@
+body{
+    max-width: 1440px;
+    margin:  auto;
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.dropdown{
+    height: 10px;
+}
+header{
+    display: flex;
+    height: 40px;
+    width: 1440px;
+    padding: 10px;
+}
+.navs{
+    margin-left: 40px;
+}
+.logo{
+    margin-left: 65px;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 400px;
+    border-radius: 30px;
+    margin-top: -10px;
+    padding: 10px;
+}
+.hero{
+    filter: brightness(50%);
+    height: 420px;
+    position: relative;
+    z-index: 0;
+}
+.bg{
+    filter: brightness(100%);
+    color: white;
+    margin-top: -290px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+.bg1{
+    filter: brightness(100%);
+    color: white;
+    margin-left: 358px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2;
+}
+.searchbar{
+    height: 150px;
+    width: 1216px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button button{
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+}
+#signin{
+    background-color: blue;
+    color: aliceblue;
+}
+#DownloadApp button{
+    width: 150px;
+    border: 2px solid rgb(224, 76, 76);
+    color: rgb(224, 76, 76);
+}
+.input{
+    position: relative;
+    padding: 25px;
+    padding-left: 90px;
+}
+.input input{
+    height: 45px;
+    width: 80%;
+    flex: 1;
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding-left: 40px;
+}
+.input i{
+    position: absolute;
+    font-size: 20px;
+    color: #777;
+    left: 35px;
+    bottom: 40px;
+    padding-left: 70px;
+}
+.input button{
+    border: 0;
+    border-radius: 20px;
+    height: 45px;
+    width: 90px;
+    background-color: blue;
+    color: aliceblue;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.country{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.courses{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.degree{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.duration{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.fees{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.intake{
+    padding: 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+}
+.heading{
+    margin-left: 105px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abc{
+    display: flex;
+    color: grey;
+}
+.sort{
+    margin-left: 869px;
+    color: black;
+}
+.fee{
+    color: black;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border: 1;
+    border-color: grey;
+    cursor: pointer;
+    padding: 5px;
+}
+bg2{
+    margin-left: 100px !important;
+}
+hr{
+    width: 1230px;
+    color: grey;
+}
+.bg2 img {
+    margin-top: 20px;
+    margin-left: 97px;
+    overflow: visible;
+}
+.lastmain{
+    display: flex;
+    margin-bottom: 65px;
+}
+.showing{
+    margin-left: 115px;
+    margin-top: 30px;
+    color:#2C2F3A;
+}
+.navs1{
+    margin-left: 830px;
+    margin-top: 30px;
+}
+.foot{
+    height: 300px;
+    background-color: #061447;
+}
+.flexcontent{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 10px;
+}
+.logo1{
+    margin-top: 40px;
+}
+.quicklinks{
+    margin-top: 40px;
+}
+.legal{
+    margin-top: 40px;
+}
+.getapps{
+    margin-top: 40px;
+}
+.line{
+    margin-left: 108px;
+}
+.flexcontent1{
+    color: white;
+    display: flex;
+    margin: 20px;
+}
+.copyright{
+    margin-left: 92px;
+}
+.logo2{
+    margin-left: 685px;
+}
